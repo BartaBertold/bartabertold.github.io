@@ -1,0 +1,188 @@
+html {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-image: url('pics/barnawall.jpg');
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: Impact, Charcoal, sans-serif;
+	line-height: 10px;	
+}
+
+header {	
+	font-size: 30px;
+	background-color: black;
+	padding:25px;
+	text-shadow: 0 0 20px rgba(0,0,0,.8);
+	top:0;
+	position: sticky;
+}
+
+h1 { 
+	line-height: 20px;
+	color:Maroon;
+}
+
+h4 {
+	line-height: 10px;
+	color: black;
+}
+
+.wrapper {
+	max-width: 1920px;
+	max-height: 1200px;
+}
+
+.content {
+	background-image: url('pics/wallpaper.jpg');
+	background-size: cover;
+    background-attachment: fixed;
+	padding: 72px;
+	margin: 0 auto;
+	font-size: 45px;	
+}
+
+.fejlec {
+	margin: 0;	
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.fejlec :hover{
+	color: Maroon;
+}
+
+.fejlec::after{
+	content:"";
+	clear: both;
+	display:table;
+}
+
+.kezdolap{
+	width: 23%;
+	float: left;
+}
+
+.rolam{
+	width: 23%;
+	float: left;
+}
+
+.gyujt{
+	width: 31%;
+	float: left;
+}
+
+.kapcs {
+	width: 23%;
+	float: left;
+}
+
+
+
+
+
+
+.en {
+	line-height: 30px;
+	font-size: 30px;
+	
+}
+
+.fekete {
+	background: black;
+	color: white;
+	max-width: 430px;
+	min-width: 400px;
+	padding: 5px 5px;
+	margin: 10px auto;
+}
+
+.all {
+	color: black;
+}
+
+.hipster {
+	float: left;
+	margin: 25px 25px 25px;
+	padding: 0 0 25px 0;
+}
+
+.kacsa {
+	float: right;
+	margin: 25px 30px 25px 25px;
+	padding: 0 0 25px 0;
+}
+
+h3 {
+	color: Maroon;
+	font-size:37px;
+}
+
+
+
+
+.elerheto {
+	color: Maroon;
+	background-color: white;
+	max-width: 600px;
+	min-width: 480px;
+	padding: 30px 50px;
+	border-width: 10px;
+	border-style: dashed;
+	border-color: black;
+	margin: 20px auto;
+}
+
+.elerheto a {
+	text-decoration: none;
+	color: Maroon;
+	font-size: 66px;	
+}
+
+.elerhetoseg2 {
+	line-height: 100px;
+	}
+
+.elerhetoseg1 {
+	font-size: 66px;
+	line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+.gyujtemeny{
+	position: absolute;
+	width: 77%;
+	right: 0%;
+	margin: 100px 0;
+}
+   
+.kepek img{
+	width: 360px;
+	height: 240px;
+	transition: all ease 0.5s;
+	margin: 5px auto;	
+}
+
+.kepek img:hover{
+	transform: scale(2);   
+}
+
+
+
